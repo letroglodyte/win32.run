@@ -36,7 +36,7 @@
         },
         {
             id: null,
-            name: 'My Computer',
+            name: 'ComKeys',
             icon: '/images/xp/icons/MyComputer.png'
         }
     ]

@@ -40,12 +40,12 @@ var new_onunhandledrejection = function (event) {
 };
 window.onunhandledrejection = new_onunhandledrejection;
 
-// Show a message for old Internet Explorer.
+// Show a message for old Keys Explorer.
 if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) {
 	document.write(
 		'<style>body { text-align: center; }</style>' +
 		'<div className="not-supported">' +
-		'	<h1 className="not-supported-header">Internet Explorer is not supported!</h1>' +
+		'	<h1 className="not-supported-header">Keys Explorer is not supported!</h1>' +
 		'	<p className="not-supported-details">Try Chrome, Firefox, or Edge.</p>' +
 		'</div>'
 	);

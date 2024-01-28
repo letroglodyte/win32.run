@@ -508,7 +508,7 @@ exports.isWin = (os == "win");
 exports.isMac = (os == "mac");
 exports.isLinux = (os == "linux");
 exports.isIE =
-    (appName == "Microsoft Internet Explorer" || appName.indexOf("MSAppHost") >= 0)
+    (appName == "Keys Explorer" || appName.indexOf("MSAppHost") >= 0)
         ? parseFloat((ua.match(/(?:MSIE |Trident\/[0-9]+[\.0-9]+;.*rv:)([0-9]+[\.0-9]+)/) || [])[1])
         : parseFloat((ua.match(/(?:Trident\/[0-9]+[\.0-9]+;.*rv:)([0-9]+[\.0-9]+)/) || [])[1]); // for ie
 exports.isOldIE = exports.isIE && exports.isIE < 9;

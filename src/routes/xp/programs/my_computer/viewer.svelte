@@ -207,7 +207,7 @@
         if(my_computer_instance.window.z_index != $zIndex) return;
         if(renaming) return;
         if(id == null) return;
-        console.log('keyevent in my computer');
+        console.log('keyevent in ComKeys');
 
         if(!(e.ctrlKey || e.metaKey)) return;
         if(e.key == 'c'){

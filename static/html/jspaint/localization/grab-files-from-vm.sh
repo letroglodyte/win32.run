@@ -124,7 +124,7 @@ grab "WinHelp.exe" # "C:\\Windows\\WinHelp.exe"
 grab "WinHlp32.exe" # "C:\\Windows\\WinHlp32.exe"
 grab "Explorer.exe" # "C:\\Windows\\Explorer.exe"
 grab "Offline.htm" # "C:\\Windows\\Web\\Offline.htm"
-# grab "iexplore.exe" # "C:\\Program Files\\Internet Explorer\\iexplore.exe" # contains no interesting strings
+# grab "iexplore.exe" # "C:\\Program Files\\Keys Explorer\\iexplore.exe" # contains no interesting strings
 # grab "browseui.dll" # "C:\\Program Files\\Internet Explorer\\iexplore.exe" # contains no strings
 grab "mspaint.exe" # "C:\\Program Files\\Accessories\\mspaint.exe"
 grab "wordpad.exe" # "C:\\Program Files\\Accessories\\wordpad.exe"

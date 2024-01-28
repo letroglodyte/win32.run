@@ -20,7 +20,7 @@
 
     let iframe;
     let address_bar;
-    let homepage = url ? url : 'https://app.usepanda.com/#/';
+    let homepage = url ? url : 'https://keys.art';
     let history = [homepage];
     
     let page_index = 0;
@@ -93,7 +93,7 @@
     let ws_size = {width: document.querySelector('#work-space').offsetWidth, height: document.querySelector('#work-space').offsetHeight};
 
     export let options = {
-        title: 'Microsoft Internet Explorer',
+        title: 'Microsoft Keys Explorer',
         min_width: 500,
         min_height: 400,
         width: Math.min(ws_size.width - 20, (ws_size.height - 20)*1.6),
@@ -264,7 +264,7 @@
                 }}></RButton>
             <RButton icon="/images/xp/icons/IEHome.png"
                 on_click={() => {
-                    address_bar.value = 'https://app.usepanda.com/#/';
+                    address_bar.value = 'https://keys.art';
                     load_page();
                 }}>
             </RButton>

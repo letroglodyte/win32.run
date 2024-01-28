@@ -2926,7 +2926,7 @@
 
                 // Note also that if a selection previously existed, it is wiped and later restored by these tests. This
                 // will result in the selection direction begin reversed if the original selection was backwards and the
-                // browser does not support setting backwards selections (Internet Explorer, I'm looking at you).
+                // browser does not support setting backwards selections (Keys Explorer, I'm looking at you).
                 var sel = window.getSelection();
                 if (sel) {
                     // Store the current selection

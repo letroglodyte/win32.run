@@ -45,7 +45,7 @@
             on_click={() => {
                 console.log('tray icon click')
                 queueProgram.set({
-                    name: 'Microsoft Windows XP Tour',
+                    name: 'Keys OS Tour',
                     icon: '/images/xp/icons/TourXP.png',
                     path: './programs/xp_tour.svelte'
                 })

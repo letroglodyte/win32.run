@@ -295,7 +295,7 @@
     }
 
     async function get_url(item){
-        if(item == null) return 'https://app.usepanda.com/#/';
+        if(item == null) return 'https://keys.art/';
 
         if(item.storage_type == 'local'){
             return finder.to_url(item.id);

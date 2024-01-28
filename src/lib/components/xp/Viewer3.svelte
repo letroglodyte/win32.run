@@ -20,7 +20,7 @@
     export let id;
     let history = [id];
     let page_index = 0;
-    $: url = finder.to_url(history[page_index]) || 'My Computer';
+    $: url = finder.to_url(history[page_index]) || 'ComKeys';
     
     $: items =  $hardDrive[id] == null ? 
         [] : 

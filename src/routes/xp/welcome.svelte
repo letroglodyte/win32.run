@@ -26,7 +26,7 @@
 
         fallback_timer = setTimeout(() => {
             self.destroy();
-        }, 7000)
+        }, 4000)
 
     })
 
@@ -44,7 +44,8 @@
     </div>
     <div class="h-[2px] bg-[linear-gradient(45deg,#466dcd,#c7ddff,#b0c9f7,#5a7edc)] shrink-0"></div>
     <div class="grow bg-[radial-gradient(circle_at_5%_5%,#91b1ef_0,#7698e6_6%,#5a7edc_12%)] relative overflow-hidden">
-        <span class="absolute top-[40%] left-[50%] text-[42px] text-slate-50 italic font-bold">Welcome</span>
+        <img src="images/welcome.png" alt="a rock" class="pt-16 mx-auto">
+
     </div>
   
     <div class="h-[2px] bg-[linear-gradient(45deg,#003399,#f99736,#c2814d,#00309c)] shrink-0"></div>

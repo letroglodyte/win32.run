@@ -70,12 +70,12 @@
       "ext": ".csv"
     },
     {
-      "name": "Microsoft Word",
+      "name": "Keys OS",
       "mime": "application/msword",
       "ext": ".doc"
     },
     {
-      "name": "Microsoft Word (OpenXML)",
+      "name": "Keys OS (OpenXML)",
       "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
       "ext": ".docx"
     },
@@ -230,12 +230,12 @@
       "ext": ".php"
     },
     {
-      "name": "Microsoft PowerPoint",
+      "name": "Keys OS PowerPoint",
       "mime": "application/vnd.ms-powerpoint",
       "ext": ".ppt"
     },
     {
-      "name": "Microsoft PowerPoint (OpenXML)",
+      "name": "Keys OS PowerPoint (OpenXML)",
       "mime": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
       "ext": ".pptx"
     },
@@ -285,7 +285,7 @@
       "ext": ".txt"
     },
     {
-      "name": "Microsoft Visio",
+      "name": "Keys OS Visio",
       "mime": "application/vnd.visio",
       "ext": ".vsd"
     },
@@ -325,12 +325,12 @@
       "ext": ".xhtml"
     },
     {
-      "name": "Microsoft Excel",
+      "name": "Keys OS Excel",
       "mime": "application/vnd.ms-excel",
       "ext": ".xls"
     },
     {
-      "name": "Microsoft Excel (OpenXML)",
+      "name": "Keys OS Excel (OpenXML)",
       "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
       "ext": ".xlsx"
     },

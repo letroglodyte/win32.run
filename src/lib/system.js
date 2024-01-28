@@ -141,7 +141,7 @@ let foxit_reader_program = {
 let msword_program = {
   path: './programs/microsoft_word.svelte',
   icon: '/images/xp/icons/DOC.png',
-  name: 'Microsoft Word 2003'
+  name: 'Keys OS 2003'
 }
 let koodo_program = {
   path: './programs/koodo.svelte',
@@ -156,7 +156,7 @@ let notepad_program = {
 let ie_program = {
   path: './programs/internet_explorer.svelte',
   icon: '/images/xp/icons/InternetExplorer6.png',
-  name: 'Microsoft Internet Explorer'
+  name: 'Keys OS Keys Explorer'
 }
 let winrar_program = {
   path: './programs/winrar.svelte',

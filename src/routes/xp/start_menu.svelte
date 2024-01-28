@@ -6,13 +6,13 @@
 
     let col_1 = [
         {
-            name: 'Internet Explorer',
+            name: 'Keys Explorer',
             icon: '/images/xp/icons/InternetExplorer6.png',
             path: './programs/internet_explorer.svelte',
             font: 'bold'
         },
         {
-            name: 'Microsoft Word 2003',
+            name: 'Keys OS Word',
             icon: '/images/xp/icons/MSWord.png',
             path: './programs/microsoft_word.svelte',
             font: 'bold'
@@ -50,7 +50,7 @@
             
         },
         {
-            name: 'Tour Windows XP',
+            name: 'Tour Keys OS',
             icon: '/images/xp/icons/TourXP.png',
             path: './programs/xp_tour.svelte',
             
@@ -73,7 +73,7 @@
             font: 'bold'
         },
         {
-            name: 'My Computer',
+            name: 'ComKeys',
             icon: '/images/xp/icons/MyComputer.png',
             path: './programs/my_computer.svelte',
             font: 'bold'
@@ -310,7 +310,7 @@
                     path: ''
                 },
                 {
-                    name: 'Tour Windows Xp',
+                    name: 'Tour Keys OS',
                     icon: '/images/xp/icons/TourXP.png',
                     path: ''
                 },
@@ -339,13 +339,13 @@
             items: []
         },
         {
-            name: 'Internet Explorer',
+            name: 'Keys Explorer',
             icon: '/images/xp/icons/InternetExplorer6.png',
             path: './programs/internet_explorer.svelte',
             font: 'bold'
         },
         {
-            name: 'Microsoft Word 2003',
+            name: 'Keys OS Word',
             icon: '/images/xp/icons/MSWord.png',
             path: './programs/microsoft_word.svelte',
             font: 'bold'
@@ -400,11 +400,10 @@
             
         },
         {
-            name: 'Tour Windows XP',
+            name: 'Tour Keys OS',
             icon: '/images/xp/icons/TourXP.png',
             path: './programs/xp_tour.svelte',
             
-        },
     ]
 
     function hide(){

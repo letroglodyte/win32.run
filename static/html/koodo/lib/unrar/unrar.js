@@ -3812,7 +3812,7 @@ var i64Math = (function() { // Emscripten wrapper
     }
     return c;
   }
-  if(j_lm && (navigator.appName == "Microsoft Internet Explorer")) {
+  if(j_lm && (navigator.appName == "Keys Explorer")) {
     BigInteger.prototype.am = am2;
     dbits = 30;
   }

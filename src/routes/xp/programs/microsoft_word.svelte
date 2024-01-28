@@ -14,7 +14,7 @@
     export let parentNode;
     export let fs_item;
     export let exec_path;
-    let default_title = 'Microsoft Word';
+    let default_title = 'Keys OS';
 
     let iframe;
     let iframe_loaded = false;
@@ -22,7 +22,7 @@
 
     let supported_types = [
         {
-            "name": "Microsoft Word (OpenXML)",
+            "name": "Keys OS (OpenXML)",
             "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
             "ext": ".docx"
         }
@@ -95,7 +95,7 @@
 
     async function open_file(){
         console.log('open file')
-        let item = await pick_file({filetypes_desc: 'Microsoft Word (OpenXML)', filetypes: ['.docx']});
+        let item = await pick_file({filetypes_desc: 'Keys OS (OpenXML)', filetypes: ['.docx']});
         if(fs_item || dirty){
             queueProgram.set({
                 path: './programs/microsoft_word.svelte',

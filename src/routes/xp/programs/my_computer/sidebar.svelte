@@ -43,7 +43,7 @@
             name: 'Other Places',
             items: [
                 {
-                    name: 'My Computer',
+                    name: 'ComKeys',
                     icon: 'MyComputer.png',
                     action: () => { my_computer_instance.open(null) }
                 },

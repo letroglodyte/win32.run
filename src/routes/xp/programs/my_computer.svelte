@@ -17,13 +17,13 @@
     export let fs_item;//fs: file system, i.e, files and folder
     let history = [fs_item?.id];
     let page_index = 0;
-    $: url = finder.to_url(history[page_index]) || 'My Computer';
+    $: url = finder.to_url(history[page_index]) || 'ComKeys';
     $: {
         let curr_id = history[page_index];
         
         if(curr_id == null){
             window?.update_icon('/images/xp/icons/MyComputer.png');
-            window?.update_title('My Computer');
+            window?.update_title('ComKeys');
 
         } else if(curr_id == recycle_bin_id) {
             window?.update_icon('/images/xp/icons/RecycleBinempty.png');
@@ -204,7 +204,7 @@
     }
 
     export let options = {
-        title:  'My Computer' ,
+        title:  'ComKeys' ,
         min_width: 500,
         min_height: 400,
         width: 700,

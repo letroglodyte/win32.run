@@ -20,14 +20,14 @@
 
     let current_option = 0;
     let boot_options = [
-        'Start Windows Normally',
-        'Install Windows',
-        'Onboard NIC (IPV4)',
-        'Onboard NIC (IPV6',
-        'BIOS Setup',
-        'Device Configuration',
-        'BIOS Flash Update',
-        'Change Boot Mode Settings'
+        'Start Keys OS Normally',
+        // 'Install Windows',
+        // 'Onboard NIC (IPV4)',
+        // 'Onboard NIC (IPV6',
+        // 'BIOS Setup',
+        // 'Device Configuration',
+        // 'BIOS Flash Update',
+        // 'Change Boot Mode Settings'
     ];
 
     function on_key_pressed(e) {
@@ -67,6 +67,14 @@
         }   
     }
 
+let count = 10;
+const timer = setInterval(function() {
+  count--;
+  if (count === 0) {
+    clearInterval(timer);
+    boot()
+  }
+}, 1000);
 
 </script>
 
@@ -75,7 +83,7 @@
         <p class="text-slate-100">Use the ↑(Up) and ↓(Down) key to move the pointer to desired boot device.</p>
         <p class="text-slate-100">Press (Enter) to attempt to boot or ESC to cancel.</p>
         {#if !is_chromium}
-        <p class="text-slate-100 mt-2 max-w-[500px]">WIN32.RUN might have unexpected behaviors on browsers that are NOT Chromium-based (Safari, Firefox, Internet Explorer, etc.)</p>
+        <p class="text-slate-100 mt-2 max-w-[500px]">Keys OS might have unexpected behaviors on browsers that are NOT Chromium-based (Safari, Firefox, Internet Explorer, etc.)</p>
         {/if}
 
         <p class="text-slate-100 uppercase mt-4 mb-2">boot options:</p>
@@ -90,15 +98,7 @@
                 </div>
             </div>
         {/each}
-
-        <p class="text-slate-100 uppercase mt-4 mb-2">other options:</p>
-        {#each boot_options.slice(4) as option, index }
-            <div>
-                <div class="ml-8 p-2 inline-block {index+4 == current_option ? 'text-slate-900 bg-slate-200' : 'text-slate-300'}">
-                    {option}
-                </div>
-            </div>
-        {/each}
+        <p class="text-slate-100 uppercase mt-4 mb-2">Auto boot in: {count}</p>
 
     </div>
 </div>
