@@ -403,7 +403,7 @@
             name: 'Tour Keys OS',
             icon: '/images/xp/icons/TourXP.png',
             path: './programs/xp_tour.svelte',
-            
+        },
     ]
 
     function hide(){

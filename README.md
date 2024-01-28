@@ -1,5 +1,4 @@
 ### Windows XP in the browser, with a File System, programs, XP-style File Picker and Saver dialogs, 3rd-party program, etc.
-## [🍭 win32.run](https://win32.run)
 
 ![License MIT](https://badgen.net/badge/license/MIT/green)
 [![css tailwind](https://badgen.net/badge/css/tailwind/blue)](https://github.com/tailwindlabs/tailwindcss)
