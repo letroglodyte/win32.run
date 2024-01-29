@@ -106,7 +106,9 @@ export let wallpapers_folder = 'uZ7fBbvbzFvQgAmJZpVbEb';
 
 export let bliss_wallpaper= 'w38WCkdn67K6JsvjdGug6y';
 
-export let protected_items = [...my_computer, recycle_bin_id, desktop_folder, wallpapers_folder];
+export let top_secret = 'eDNKQJFvyz7Rt4gBRKwBYc'
+
+export let protected_items = [...my_computer, recycle_bin_id, desktop_folder, wallpapers_folder, top_secret];
 
 export let hidden_items = [recycle_bin_id,desktop_folder, wallpapers_folder];
 
@@ -164,11 +166,6 @@ let winrar_program = {
   name: 'WinRAR'
 }
 
-let flash_player_program = {
-  path: './programs/flash_player.svelte',
-  icon: '/images/xp/icons/FlashPlayer.png',
-  name: 'Flash Player'
-}
 
 export let doctypes = {
   '.wav': [mpc_program],
@@ -200,7 +197,6 @@ export let doctypes = {
   '.rar': [winrar_program],
   '.tar': [winrar_program],
   '.7z': [winrar_program],
-  '.swf': [flash_player_program]
 }
 
 export let icons = {
@@ -239,7 +235,6 @@ export let icons = {
   '.srt': 'SUB.png',
   '.vtt': 'SUB.png',
   '.gif': 'GIF.png',
-  '.swf': 'SWF.png'
 }
 
 export let archive_exts = ['.rar', '.zip', '.7z', '.tar']

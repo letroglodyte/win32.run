@@ -265,32 +265,7 @@
                 props: {id: short.generate(), parentNode: node_ref, copying_obj, target_folder_id, exec_path: path}
             });
             program.self = program;
-        } else if(path == './programs/app_installer.svelte'){
-
-            const Program = (await import('./programs/app_installer.svelte')).default;
-            let program = new Program({
-                target: node_ref,
-                props: {id: short.generate(), parentNode: node_ref, copying_obj, target_folder_id, exec_path: path}
-            });
-            program.self = program;
-            //add to program tray
-            runningPrograms.update(values => {
-                return [...values, program];
-            })
-        } else if(path == './programs/flash_player.svelte'){
-            const Program = (await import('./programs/flash_player.svelte')).default;
-            let program = new Program({
-                target: node_ref,
-                props: {id: short.generate(), parentNode: node_ref, fs_item, exec_path: path}
-            });
-            program.self = program;
-            
-            //add to program tray
-            runningPrograms.update(values => {
-                return [...values, program];
-            })
         } 
-
         queueProgram.set(null);
     }
 
